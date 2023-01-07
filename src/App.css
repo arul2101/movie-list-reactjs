@@ -1,0 +1,123 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+nav{
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, .75);
+}
+
+.nav-title:hover{
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, .75);
+}
+
+/* NAVBAR */
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image: url("./img/batman-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.wrap-jumbotron{
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 60vh;
+    line-height: 10px;
+}
+
+.center-title h3{
+    font-size: 3em;
+}
+/* JUMBOTRON */
+
+/* MOVIES SECTION */
+.marvel-movies{
+    background-image: url("./img/spider-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrap-movies{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 4px solid rgb(77, 177, 177);
+    border-radius: 20px;
+    width: 280px;
+    height: 520px;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.poster{
+    width: 100%;
+    height: 400px;
+}
+
+.dc-movies{
+    background-image: url("./img/joker-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* MOVIES SECTION */
+
+
+
+
+
+
